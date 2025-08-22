@@ -1,0 +1,239 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "70d76ba7-06a2-4f8b-9d1f-14b89660633e")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 34.29 34.29) (xy 41.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015e71c8-22a0-4cfd-98a2-5dec8a901cd5")
+	)
+	(wire
+		(pts
+			(xy 241.3 138.43) (xy 247.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e5f958-3668-4326-aa04-a8d504313f89")
+	)
+	(wire
+		(pts
+			(xy 34.29 40.64) (xy 41.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7beb8491-78be-49f1-8ed8-a4f84957706c")
+	)
+	(wire
+		(pts
+			(xy 241.3 143.51) (xy 247.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e9a653-aa22-4db5-8dfe-a740497b654d")
+	)
+	(global_label "TMaster"
+		(shape input)
+		(at 241.3 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09c9a278-d422-4a1b-b2ff-a2c8e726d972")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.1182 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LMaster"
+		(shape input)
+		(at 241.3 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "793626f1-3879-406e-a023-43929fc2e7db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.0577 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "LPA1"
+		(shape input)
+		(at 34.29 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a645578-0818-4312-993c-1436fb4eda43")
+	)
+	(hierarchical_label "TE1"
+		(shape input)
+		(at 34.29 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7deb7aaf-4d8f-489b-9ebc-1f426f002ce4")
+	)
+	(sheet
+		(at 41.91 30.48)
+		(size 15.24 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15f3a79f-ba1e-4c68-ad54-f018b7999ab3")
+		(property "Sheetname" "touchPad_1"
+			(at 41.91 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "touchPad.kicad_sch"
+			(at 41.91 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "led_pin" input
+			(at 41.91 34.29 180)
+			(uuid "ce091c3d-4fd9-415b-84d2-4949446df3bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "touch" input
+			(at 41.91 40.64 180)
+			(uuid "7281d3f6-4a12-4a15-86da-280f0b981162")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "template"
+				(path "/8469cd9a-15fe-4677-a617-64af849f0980/044b275d-98c4-4544-9612-ff91db43870b/875d9d7a-fff7-4439-8f9d-9bf0b28f9e85/7b9a6a15-69fa-43cc-b1d9-66e5c1665431"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 133.35)
+		(size 16.51 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 0 0.2300)
+		)
+		(uuid "9af6cc11-ce4a-4e60-8ffd-c683d932394f")
+		(property "Sheetname" "touchPad1"
+			(at 247.65 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "touchPad1.kicad_sch"
+			(at 247.65 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "led_pin" input
+			(at 247.65 138.43 180)
+			(uuid "d88754ec-0a6a-4d5f-8b45-4fdb4e1a92b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "touch" input
+			(at 247.65 143.51 180)
+			(uuid "dabe2453-9aab-4bcf-a82c-d174ac7cad33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "template"
+				(path "/8469cd9a-15fe-4677-a617-64af849f0980/044b275d-98c4-4544-9612-ff91db43870b/875d9d7a-fff7-4439-8f9d-9bf0b28f9e85/7b9a6a15-69fa-43cc-b1d9-66e5c1665431"
+					(page "17")
+				)
+			)
+		)
+	)
+)

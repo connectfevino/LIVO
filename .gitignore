@@ -1,0 +1,14 @@
+*.svg
+dev_svg.svg
+dev_svg_bw.svg
+*lck
+*svg
+
+
+/builds/
+/edge-backups/
+export.py
+*.bak
+*.log
+*.tmp
+

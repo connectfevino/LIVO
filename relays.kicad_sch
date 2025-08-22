@@ -1,0 +1,81 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "88db8195-1c76-4e56-9d44-918bda363067")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 58.42 34.29) (xy 64.77 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4fdfd2c-71f5-4e19-af3b-1d1535c6201d")
+	)
+	(hierarchical_label "PinR1"
+		(shape input)
+		(at 59.69 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3277611-e53f-47fe-a523-fc02151b9090")
+	)
+	(sheet
+		(at 64.77 30.48)
+		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6879f7ea-92b0-4726-a317-05e61b1e423d")
+		(property "Sheetname" "HF1"
+			(at 64.77 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HF.kicad_sch"
+			(at 64.77 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "rel_pin" input
+			(at 64.77 34.29 180)
+			(uuid "50616251-2802-48d1-b3c2-a4c1325adfcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "template"
+				(path "/8469cd9a-15fe-4677-a617-64af849f0980/b2603118-d8d9-4fce-85e7-aee7c31a0a3c/948f0e54-1fd7-48f1-9b12-ddf7f53b5249"
+					(page "21")
+				)
+			)
+		)
+	)
+)
