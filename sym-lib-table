@@ -1,3 +1,4 @@
 (sym_lib_table
   (version 7)
+  (lib (name "custom")(type "KiCad")(uri "/tmp/general/symbol/custom.kicad_sym")(options "")(descr ""))
 )
