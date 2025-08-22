@@ -136,7 +136,7 @@
 	(property "u" "µ")
 	(net 0 "")
 	(gr_rect
-		(start 113.45 82.5)
+		(start 113.45 102.1)
 		(end 232.4 137.3)
 		(stroke
 			(width 0.1)
